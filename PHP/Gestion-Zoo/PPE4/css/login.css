@@ -1,0 +1,138 @@
+body {
+  /* background-color: #2f3136; */
+  background-image: url('./img2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-align: center; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  min-height: 100vh;
+  margin-bottom: 50px; 
+
+}
+
+
+  
+  h1 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+
+
+  
+  form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    margin-bottom: 5px;
+  }
+  
+
+  form input{
+    background-color: #EAEAEA;
+    border: none;
+    border-radius: 5px;
+    color: #2f3136;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  form input[type="text"]:focus,
+  form input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0 0 3px #7289da;
+  }
+  
+  form input[type="submit"] {
+    background-color: #7289da;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #677bc4;
+  }
+  
+  div.alert {
+    background-color: #f04747;
+    border-radius: 5px;
+    color: #fff;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+
+textarea, select{
+  background-color: #EAEAEA;
+    border: none;
+    border-radius: 5px;
+    color: #2f3136;
+    font-size: 16px;
+    padding: 10px;
+}
+
+a{
+  color : #fff;
+  text-decoration: none;
+}
+button{
+  background-color: #7289da;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+form {
+  display: flex; /* Utiliser le modèle de disposition flex */
+  flex-direction: column; /* Organiser les éléments en colonne */
+  margin: 20px;
+  max-width: 400px;
+  align-self: center; /* Centrer le formulaire horizontalement */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto; /* Centrer le formulaire horizontalement */
+  max-width: 400px;
+  justify-content: center; /* Centrer les éléments verticalement */
+}
+
+td{
+  background-color: rgba(50, 50, 50, 0.6);
+  border-radius: 0px;
+  padding: 0px 10px;
+}
+
+footer {
+  margin-top: 150px; /* Ajouter une marge en haut */
+}
+
+
+
+thead{
+  background-color: rgba(10, 10, 10, 0.8);
+}
+
+
+table{
+  background-color: rgba(10, 10, 10, 0.8);
+}
+
+.bg_table{
+  background-color: rgba(255, 255, 255, 0);
+}

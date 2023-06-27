@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: sans-serif;
+    height: 200vh;
+    background-color: #444;
+}
+
+
+h1{
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: #000 5px 5px 20px;
+}
+
+h4{
+    font-weight: none;
+    color: #DDD;
+    text-align: justify;
+}
+
+
+img{
+
+
+    min-width: 960px;
+    max-width: 960px;
+
+    min-height: 480px;
+    max-height: 480px;
+}
+
+.right{
+    margin-top: 30px;
+
+    min-width: 960px;
+    max-width: 960px;
+
+    min-height: 480px;
+    max-height: 480px;
+}
+
+strong{
+    color: #cbec28;
+}

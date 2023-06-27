@@ -1,0 +1,125 @@
+/* Sélectionne tous les éléments de la page */
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Donne une couleur de fond noire à la page */
+  body {
+    background-image: url('css/fox.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #2f3136; */
+    color: #fff;
+  }
+  
+  /* Centre le titre et ajoute une ombre */
+  header h1 {
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+  }
+  
+  /* Ajoute de l'espace autour du paragraphe et réduit la taille de la police */
+  main p {
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  /* Modifie le style de la liste de liens */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style pour les liens */
+  a {
+    color: #fff;
+    font-weight: bold;
+    text-shadow: #000 3px 3px 10px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+  }
+  
+  /* Style pour les liens lorsque la souris est dessus */
+  a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    
+  }
+  
+  /* Style pour le pied de page */
+  footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+
+  /* Centre les liens "Connexion" et "Inscription" */
+main ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Centre les liens horizontalement */
+  main ul li {
+    margin: 0 10px;
+  }
+  
+
+p{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+  /* Centre les liens "Connexion" et "Inscription" */
+.aceuil_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  /* Centre les liens horizontalement */
+  .aceuil_btn{
+    margin: 0 10px;
+  }
+  
+
+  .aceuil_btn{
+    display: flex;
+    justify-content: center;
+}
+
+.retour{
+  background-color: #7289da;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.retour a:hover{
+  background-color: #7289da;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;  
+}
+
+
+footer {
+  margin-top: 150px; /* Ajouter une marge en haut */
+}
+
+.linkRetour{
+  text-shadow: none;
+}

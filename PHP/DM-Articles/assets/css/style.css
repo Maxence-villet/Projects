@@ -1,0 +1,319 @@
+body{
+    background-image: url(../img/background/img01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+
+
+body.article{
+    height: 200vh;
+}
+
+
+
+
+a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+a.sign{
+    color: #f00;
+    text-decoration: none;
+}
+.left{
+    background-color: #333333;
+    min-width: 75px;
+    max-width: 7%;
+    height: 100vh;
+}
+
+.logo{
+    width: 100%;
+    height: 15%;
+    background-color: #111111;
+    min-height: 75px;
+
+}
+
+.logo img{
+    padding-top: 10%;
+    min-height: 75px;
+    
+}
+
+.icon{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 35%;
+    margin-top: 15vh;
+}
+
+.icon img, .log img{
+    width: 65%;
+}
+
+.box{
+    display: flex;
+}
+
+.log{
+    margin-top: 150%;
+}
+
+
+.blueEarth{
+    position: absolute;
+}
+.input{
+    background-image: url(../img/icon/19.png);
+    width: 300px;
+    height: 600px;
+}
+
+.connect{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    border-radius: 8px;
+    z-index: 9;
+    justify-content: center;
+}
+
+.input h1{
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+button{
+    background: none;
+    border: none;
+    margin-top: 30%;
+}
+
+button img{
+    margin-top: -100px;
+    width: 150px;
+    z-index: 9;
+
+}
+
+
+div.back{
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.right{
+    width: 100%;
+}
+
+
+
+.profil{
+    display: flex;
+    margin: 40px 0 0 40px;
+}
+
+.about{
+    margin-left: 30px;
+}
+
+.about .likes{
+    display: flex;
+    justify-content: center;
+}
+
+.about h3{
+    padding-top: 7px;
+}
+
+.avatar img{
+    border-radius: 50%;
+}
+
+
+.avatar{
+    flex-direction: column;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+  
+.avatar img {
+    width: 128px;
+    height: 128px;
+}
+  
+.avatar form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px; /* Facultatif : ajoute un espace supplémentaire au-dessus du bouton */
+}
+  
+.avatar .btn{
+    margin-top: 10px; /* Facultatif : ajoute un espace supplémentaire entre l'image et le bouton */
+}
+  
+
+.avatar .btn{
+    color: #fff;
+    font-weight: bold;
+    background-color: #5555ff;
+    padding: 10px 12px;
+    border-radius: 5px;
+    width: 75px;
+    border: none;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.miniature{
+    width: 160px;
+    height: 100px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #55BBFF;
+    padding: 20px;
+    margin: 30px;
+    justify-content: space-between;
+    border-radius: 24px;
+}
+
+
+.frame{
+    width: 100%;
+
+}
+
+body.display{
+    background-image: none;
+}
+
+.all_screen{
+    height: 100vh;
+    width: 100%;
+}
+
+.article_profil{
+    height: 65vh;
+    width: 100%;
+}
+
+textarea{
+    width: 1000px;
+    height: 500px;
+}
+
+.container .box{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+a.article{
+    width: 100%;
+}
+
+
+.stats{
+    background-color: #333;
+    max-width: 27%;
+    max-height: 13vh;
+    min-width: 27%;
+    min-height: 15vh;
+    margin: 0px 20px;
+    border-radius: 25px;
+
+}
+
+
+.stats_global{
+    display: flex;
+    max-width: 80%;
+    max-height: 20vh;
+    min-width: 80%;
+    min-height: 20vh;
+    justify-content: space-around;
+    
+}
+
+h1.static{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.display_icon_stats{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    vertical-align: baseline;
+}
+
+.display_icon_stats h2{
+    font-size: 200%;
+
+}
+
+.display_icon_stats img{
+    width: 100px;
+    height: 100px;
+}
+
+div.display_icon_stats{
+    width: 100%;
+}
+
+.back .btn{
+    margin: 0;
+    position: absolute;
+    margin-left: 1%;
+    padding: 30px;
+    margin-top: 3%;
+
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+.center{
+    width: 100%;
+    height: 100%;
+}

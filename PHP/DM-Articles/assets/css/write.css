@@ -1,0 +1,182 @@
+body{
+    background-image: url(../img/background/img01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #FFF;
+}
+a{
+    text-decoration: none;
+}
+.left{
+    background-color: #333333;
+    min-width: 75px;
+    width: 7%;
+    height: 100vh;
+}
+
+.logo{
+    width: 100%;
+    height: 15%;
+    background-color: #111111;
+    min-height: 75px;
+
+}
+
+.logo img{
+    padding-top: 10%;
+    min-height: 75px;
+}
+.icon{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 35%;
+    margin-top: 15vh;
+}
+
+.icon img{
+    width: 65%;
+}
+.box {
+    display: flex;
+}
+.right{
+    width: 92.7%;
+    float: left; /* ajouter cette propriété */
+}
+.bonhomme{
+    display: flex;
+    justify-content: center;
+    line-height: 10%;
+}
+.article{
+    /* background-color: red; */
+    width: 90%;
+    height: 90%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+input{
+    background-color: rgb(166, 164, 164);
+    border-radius: 16px;
+    width: 100%;
+    border: none;
+    padding: 5px;
+}
+.title_send{
+    border-radius: 8px;
+    height: 50px;  
+    min-width: 96vh;
+    max-width: 96vh;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    margin: 0;
+}
+textarea{
+    background-color: rgb(143, 143, 143);
+    border-radius: 20px;
+    height: 250px;
+    min-width: 96vh;
+    min-height: 40vh;
+    max-width: 96vh;
+    max-height: 70vh;
+    text-decoration: none;
+    margin-top: 60px;
+    border: none;
+    text-decoration: none;
+}
+    /* pour tous les éléments input */
+input::placeholder {
+    color: rgb(201, 195, 200);
+    font-size: 2em;
+  }
+  
+  /* pour un élément input spécifique avec une classe .mon-input */
+  textarea::placeholder {
+    color: rgb(201, 195, 200);
+    font-size: 2em;
+  }
+  
+
+.boutton-publier{
+    background-color: rgb(20, 111, 209);
+    border: none;
+    border-radius: 1px;
+    width: 10%;
+    padding: 10px;
+
+}
+.boutton-fichier{
+    background-color: rgb(20, 209, 33);
+    border: none;
+    border-radius: 1px;
+}
+.postion{
+    display: flex;
+    flex-direction: column;
+}
+form {
+    height: 80%;
+    width: 80%;
+    margin: -1.5%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.titre{
+    height: 30px;
+    width: 100%;
+    margin-top: 0%;
+    height: 40px;
+}
+.template{
+    width: 68%;
+
+
+
+}
+  
+
+div.ligne{
+    display: flex;
+}
+
+button{
+    color: #fff;
+    background-color: #5588ff;
+    margin-top: 0;
+    width: 140px;
+    height: 35px;
+    margin: 0;
+    margin: 0;
+
+}
+
+
+label{
+    max-width: 25%;
+    margin-right: 30px;
+}
+
+
+.template, button{
+    width: 140px;
+    height: 50px;
+
+}
+
+input{
+    margin-right: 30px;
+}
+
+input{
+    border-color: none;
+}
